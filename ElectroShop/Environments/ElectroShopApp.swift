@@ -11,7 +11,7 @@ import SwiftUI
 struct ElectroShopApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

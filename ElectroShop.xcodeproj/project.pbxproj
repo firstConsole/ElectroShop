@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		BB4A343629B4ED5000695DA8 /* ElectroShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A343529B4ED5000695DA8 /* ElectroShopApp.swift */; };
-		BB4A343829B4ED5000695DA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A343729B4ED5000695DA8 /* ContentView.swift */; };
 		BB4A343A29B4ED5100695DA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4A343929B4ED5100695DA8 /* Assets.xcassets */; };
 		BB4A343D29B4ED5100695DA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4A343C29B4ED5100695DA8 /* Preview Assets.xcassets */; };
 		BB4A344729B4ED5100695DA8 /* ElectroShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A344629B4ED5100695DA8 /* ElectroShopTests.swift */; };
 		BB4A345129B4ED5100695DA8 /* ElectroShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A345029B4ED5100695DA8 /* ElectroShopUITests.swift */; };
 		BB4A345329B4ED5100695DA8 /* ElectroShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A345229B4ED5100695DA8 /* ElectroShopUITestsLaunchTests.swift */; };
+		BB4A346C29B4EF2700695DA8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A346B29B4EF2700695DA8 /* MainView.swift */; };
+		BB4A346F29B4F02100695DA8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A346E29B4F02100695DA8 /* HomeView.swift */; };
+		BB4A347129B4F02A00695DA8 /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A347029B4F02A00695DA8 /* CatalogView.swift */; };
+		BB4A347329B4F03100695DA8 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A347229B4F03100695DA8 /* CartView.swift */; };
+		BB4A347529B4F03A00695DA8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A347429B4F03A00695DA8 /* ProfileView.swift */; };
+		BB4A347829B4F35400695DA8 /* PromoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A347729B4F35400695DA8 /* PromoView.swift */; };
+		BB4A347B29B6460300695DA8 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A347A29B6460300695DA8 /* SearchView.swift */; };
+		BB4A347E29B647DB00695DA8 /* PromoCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A347D29B647DB00695DA8 /* PromoCellView.swift */; };
+		BB4A348029B8AC4700695DA8 /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = BB4A347F29B8AC4700695DA8 /* example.json */; };
+		BB4A348229B8AC7500695DA8 /* CatalogCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A348129B8AC7500695DA8 /* CatalogCardView.swift */; };
+		BB4A348429B8C40B00695DA8 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A348329B8C40B00695DA8 /* ProductModel.swift */; };
+		BB4A348629B8C67400695DA8 /* Bundle+decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A348529B8C67400695DA8 /* Bundle+decode.swift */; };
+		BB4A348829BF37DC00695DA8 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A348729BF37DC00695DA8 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +48,6 @@
 /* Begin PBXFileReference section */
 		BB4A343229B4ED5000695DA8 /* ElectroShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectroShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4A343529B4ED5000695DA8 /* ElectroShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectroShopApp.swift; sourceTree = "<group>"; };
-		BB4A343729B4ED5000695DA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB4A343929B4ED5100695DA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB4A343C29B4ED5100695DA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB4A344229B4ED5100695DA8 /* ElectroShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectroShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +55,19 @@
 		BB4A344C29B4ED5100695DA8 /* ElectroShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectroShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4A345029B4ED5100695DA8 /* ElectroShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectroShopUITests.swift; sourceTree = "<group>"; };
 		BB4A345229B4ED5100695DA8 /* ElectroShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectroShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB4A346B29B4EF2700695DA8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BB4A346E29B4F02100695DA8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BB4A347029B4F02A00695DA8 /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		BB4A347229B4F03100695DA8 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		BB4A347429B4F03A00695DA8 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		BB4A347729B4F35400695DA8 /* PromoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoView.swift; sourceTree = "<group>"; };
+		BB4A347A29B6460300695DA8 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		BB4A347D29B647DB00695DA8 /* PromoCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCellView.swift; sourceTree = "<group>"; };
+		BB4A347F29B8AC4700695DA8 /* example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = example.json; sourceTree = "<group>"; };
+		BB4A348129B8AC7500695DA8 /* CatalogCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogCardView.swift; sourceTree = "<group>"; };
+		BB4A348329B8C40B00695DA8 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		BB4A348529B8C67400695DA8 /* Bundle+decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+decode.swift"; sourceTree = "<group>"; };
+		BB4A348729BF37DC00695DA8 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +118,10 @@
 		BB4A343429B4ED5000695DA8 /* ElectroShop */ = {
 			isa = PBXGroup;
 			children = (
-				BB4A343529B4ED5000695DA8 /* ElectroShopApp.swift */,
-				BB4A343729B4ED5000695DA8 /* ContentView.swift */,
-				BB4A343929B4ED5100695DA8 /* Assets.xcassets */,
-				BB4A343B29B4ED5100695DA8 /* Preview Content */,
+				BB4A346229B4ED9700695DA8 /* Environments */,
+				BB4A346129B4ED8D00695DA8 /* Resources */,
+				BB4A346029B4ED8000695DA8 /* Core */,
+				BB4A345F29B4ED7600695DA8 /* App */,
 			);
 			path = ElectroShop;
 			sourceTree = "<group>";
@@ -125,6 +149,146 @@
 				BB4A345229B4ED5100695DA8 /* ElectroShopUITestsLaunchTests.swift */,
 			);
 			path = ElectroShopUITests;
+			sourceTree = "<group>";
+		};
+		BB4A345F29B4ED7600695DA8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BB4A346629B4EDDE00695DA8 /* Flows */,
+				BB4A346529B4EDD000695DA8 /* Assembly */,
+				BB4A346429B4EDC700695DA8 /* Entity */,
+				BB4A346329B4EDBA00695DA8 /* BusinessLogic */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BB4A346029B4ED8000695DA8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BB4A346129B4ED8D00695DA8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB4A343B29B4ED5100695DA8 /* Preview Content */,
+				BB4A343929B4ED5100695DA8 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BB4A346229B4ED9700695DA8 /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				BB4A343529B4ED5000695DA8 /* ElectroShopApp.swift */,
+			);
+			path = Environments;
+			sourceTree = "<group>";
+		};
+		BB4A346329B4EDBA00695DA8 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				BB4A348529B8C67400695DA8 /* Bundle+decode.swift */,
+				BB4A348729BF37DC00695DA8 /* Order.swift */,
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		BB4A346429B4EDC700695DA8 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				BB4A347F29B8AC4700695DA8 /* example.json */,
+				BB4A348329B8C40B00695DA8 /* ProductModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		BB4A346529B4EDD000695DA8 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		BB4A346629B4EDDE00695DA8 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				BB4A346729B4EE0B00695DA8 /* Main */,
+				BB4A346D29B4F01400695DA8 /* Home */,
+				BB4A346829B4EE1400695DA8 /* Catalog */,
+				BB4A347929B645EE00695DA8 /* Search */,
+				BB4A346929B4EE2200695DA8 /* Cart */,
+				BB4A346A29B4EE2A00695DA8 /* Profile */,
+				BB4A347C29B6469B00695DA8 /* AdditionalView */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		BB4A346729B4EE0B00695DA8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BB4A346B29B4EF2700695DA8 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BB4A346829B4EE1400695DA8 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				BB4A347029B4F02A00695DA8 /* CatalogView.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		BB4A346929B4EE2200695DA8 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				BB4A347229B4F03100695DA8 /* CartView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		BB4A346A29B4EE2A00695DA8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BB4A347429B4F03A00695DA8 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		BB4A346D29B4F01400695DA8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BB4A346E29B4F02100695DA8 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BB4A347629B4F33000695DA8 /* Promo */ = {
+			isa = PBXGroup;
+			children = (
+				BB4A347729B4F35400695DA8 /* PromoView.swift */,
+				BB4A347D29B647DB00695DA8 /* PromoCellView.swift */,
+			);
+			path = Promo;
+			sourceTree = "<group>";
+		};
+		BB4A347929B645EE00695DA8 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				BB4A347A29B6460300695DA8 /* SearchView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		BB4A347C29B6469B00695DA8 /* AdditionalView */ = {
+			isa = PBXGroup;
+			children = (
+				BB4A347629B4F33000695DA8 /* Promo */,
+				BB4A348129B8AC7500695DA8 /* CatalogCardView.swift */,
+			);
+			path = AdditionalView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +397,7 @@
 			files = (
 				BB4A343D29B4ED5100695DA8 /* Preview Assets.xcassets in Resources */,
 				BB4A343A29B4ED5100695DA8 /* Assets.xcassets in Resources */,
+				BB4A348029B8AC4700695DA8 /* example.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +422,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB4A343829B4ED5000695DA8 /* ContentView.swift in Sources */,
+				BB4A347829B4F35400695DA8 /* PromoView.swift in Sources */,
+				BB4A347329B4F03100695DA8 /* CartView.swift in Sources */,
+				BB4A346F29B4F02100695DA8 /* HomeView.swift in Sources */,
+				BB4A347E29B647DB00695DA8 /* PromoCellView.swift in Sources */,
+				BB4A346C29B4EF2700695DA8 /* MainView.swift in Sources */,
+				BB4A347B29B6460300695DA8 /* SearchView.swift in Sources */,
+				BB4A348229B8AC7500695DA8 /* CatalogCardView.swift in Sources */,
+				BB4A348629B8C67400695DA8 /* Bundle+decode.swift in Sources */,
+				BB4A348429B8C40B00695DA8 /* ProductModel.swift in Sources */,
+				BB4A347129B4F02A00695DA8 /* CatalogView.swift in Sources */,
+				BB4A348829BF37DC00695DA8 /* Order.swift in Sources */,
+				BB4A347529B4F03A00695DA8 /* ProfileView.swift in Sources */,
 				BB4A343629B4ED5000695DA8 /* ElectroShopApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,7 +592,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ElectroShop/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"$(SRCROOT)/ElectroShop/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 3HD2DR99MJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -445,7 +621,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ElectroShop/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"$(SRCROOT)/ElectroShop/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 3HD2DR99MJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
