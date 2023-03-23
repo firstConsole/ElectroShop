@@ -9,18 +9,18 @@ import Foundation
 
 final class Order: ObservableObject {
     @Published private(set) var products: [Product] = []
-    @Published private(set) var total: Int = 0
+    @Published private(set) var totalCost: Int = 0
     
-    func addToCart(product: Product?) {
-        guard let product = product else {
-            return
-        }
+    func addToCart(product: Product) {
         products.append(product)
-        total += product.costRuble
+        totalCost += product.costRuble
+        
+        print(products.count)
+        print(products.description)
     }
     
     func removeFromCart(product: Product) {
-        products = products.filter{ $0.id != product.id }
-        total -= product.costRuble
+        products = products.filter { $0.id != product.id }
+        totalCost -= product.costRuble
     }
 }

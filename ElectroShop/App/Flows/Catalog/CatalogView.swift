@@ -8,29 +8,25 @@
 import SwiftUI
 
 struct CatalogView: View {
-    private var products: [Product] = ProductModel.products
-    @StateObject var order = Order()
+    private var products = ProductModel.products
+    @StateObject private var order = Order()
     
     var body: some View {
         NavigationView {
-            ZStack {
-                VStack {
-                    List {
-                        ForEach(products, id: \.id) { product in
-                            let image = Bundle.main.imageLoader(url: product.photo)
-
-                            CatalogCardView(image: Image(uiImage: image),
-                                            productName: product.name,
-                                            memory: product.memory,
-                                            color: product.color,
-                                            cost: String("\(product.costRuble)" + " ₽"))
-                            .environmentObject(order)
+            VStack {
+                List {
+                    ForEach(products, id: \.id) { product in
+                        NavigationLink {
+                            ProductDetailView(product: product)
+                        } label: {
+                            ProductCellView(product: product)
+                                .environmentObject(order)
                         }
                     }
-                    .listStyle(.inset)
                 }
+                .listStyle(.inset)
             }
-            .navigationTitle(Text("Catalog"))
+            .navigationTitle(Text("Каталог"))
         }
     }
 }

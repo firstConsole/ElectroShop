@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB03FB3829CC884800196683 /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = BB03FB3729CC884800196683 /* user.json */; };
+		BB03FB3A29CC8A9E00196683 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB03FB3929CC8A9E00196683 /* Network.swift */; };
+		BB03FB3C29CC8E4800196683 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB03FB3B29CC8E4800196683 /* LoginView.swift */; };
 		BB4A343629B4ED5000695DA8 /* ElectroShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A343529B4ED5000695DA8 /* ElectroShopApp.swift */; };
 		BB4A343A29B4ED5100695DA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4A343929B4ED5100695DA8 /* Assets.xcassets */; };
 		BB4A343D29B4ED5100695DA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4A343C29B4ED5100695DA8 /* Preview Assets.xcassets */; };
@@ -21,11 +24,15 @@
 		BB4A347829B4F35400695DA8 /* PromoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A347729B4F35400695DA8 /* PromoView.swift */; };
 		BB4A347B29B6460300695DA8 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A347A29B6460300695DA8 /* SearchView.swift */; };
 		BB4A347E29B647DB00695DA8 /* PromoCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A347D29B647DB00695DA8 /* PromoCellView.swift */; };
-		BB4A348029B8AC4700695DA8 /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = BB4A347F29B8AC4700695DA8 /* example.json */; };
-		BB4A348229B8AC7500695DA8 /* CatalogCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A348129B8AC7500695DA8 /* CatalogCardView.swift */; };
 		BB4A348429B8C40B00695DA8 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A348329B8C40B00695DA8 /* ProductModel.swift */; };
 		BB4A348629B8C67400695DA8 /* Bundle+decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A348529B8C67400695DA8 /* Bundle+decode.swift */; };
 		BB4A348829BF37DC00695DA8 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A348729BF37DC00695DA8 /* Order.swift */; };
+		BB4A349129C7636000695DA8 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A349029C7636000695DA8 /* ProductDetailView.swift */; };
+		BB4A349329CA0F8100695DA8 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A349229CA0F8100695DA8 /* Modifiers.swift */; };
+		BB4A349729CA178600695DA8 /* ProductCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A349629CA178600695DA8 /* ProductCellView.swift */; };
+		BB4A34D529CC36A800695DA8 /* CartCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A34D429CC36A800695DA8 /* CartCellView.swift */; };
+		BB4A34D729CC5AD200695DA8 /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = BB4A34D629CC5AD200695DA8 /* example.json */; };
+		BB4A34E029CC6EDB00695DA8 /* LoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A34DF29CC6EDB00695DA8 /* LoginResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +53,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB03FB3729CC884800196683 /* user.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user.json; sourceTree = "<group>"; };
+		BB03FB3929CC8A9E00196683 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		BB03FB3B29CC8E4800196683 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		BB4A343229B4ED5000695DA8 /* ElectroShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectroShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4A343529B4ED5000695DA8 /* ElectroShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectroShopApp.swift; sourceTree = "<group>"; };
 		BB4A343929B4ED5100695DA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,11 +73,15 @@
 		BB4A347729B4F35400695DA8 /* PromoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoView.swift; sourceTree = "<group>"; };
 		BB4A347A29B6460300695DA8 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		BB4A347D29B647DB00695DA8 /* PromoCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCellView.swift; sourceTree = "<group>"; };
-		BB4A347F29B8AC4700695DA8 /* example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = example.json; sourceTree = "<group>"; };
-		BB4A348129B8AC7500695DA8 /* CatalogCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogCardView.swift; sourceTree = "<group>"; };
 		BB4A348329B8C40B00695DA8 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		BB4A348529B8C67400695DA8 /* Bundle+decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+decode.swift"; sourceTree = "<group>"; };
 		BB4A348729BF37DC00695DA8 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		BB4A349029C7636000695DA8 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		BB4A349229CA0F8100695DA8 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		BB4A349629CA178600695DA8 /* ProductCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellView.swift; sourceTree = "<group>"; };
+		BB4A34D429CC36A800695DA8 /* CartCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCellView.swift; sourceTree = "<group>"; };
+		BB4A34D629CC5AD200695DA8 /* example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = example.json; sourceTree = "<group>"; };
+		BB4A34DF29CC6EDB00695DA8 /* LoginResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +179,7 @@
 		BB4A346029B4ED8000695DA8 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				BB4A349229CA0F8100695DA8 /* Modifiers.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -191,6 +206,7 @@
 			children = (
 				BB4A348529B8C67400695DA8 /* Bundle+decode.swift */,
 				BB4A348729BF37DC00695DA8 /* Order.swift */,
+				BB03FB3929CC8A9E00196683 /* Network.swift */,
 			);
 			path = BusinessLogic;
 			sourceTree = "<group>";
@@ -198,8 +214,10 @@
 		BB4A346429B4EDC700695DA8 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				BB4A347F29B8AC4700695DA8 /* example.json */,
+				BB4A34D629CC5AD200695DA8 /* example.json */,
+				BB03FB3729CC884800196683 /* user.json */,
 				BB4A348329B8C40B00695DA8 /* ProductModel.swift */,
+				BB4A34DF29CC6EDB00695DA8 /* LoginResult.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -220,6 +238,7 @@
 				BB4A347929B645EE00695DA8 /* Search */,
 				BB4A346929B4EE2200695DA8 /* Cart */,
 				BB4A346A29B4EE2A00695DA8 /* Profile */,
+				BB4A348B29C6F46600695DA8 /* ProductDetailView */,
 				BB4A347C29B6469B00695DA8 /* AdditionalView */,
 			);
 			path = Flows;
@@ -253,6 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				BB4A347429B4F03A00695DA8 /* ProfileView.swift */,
+				BB03FB3B29CC8E4800196683 /* LoginView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -286,9 +306,18 @@
 			isa = PBXGroup;
 			children = (
 				BB4A347629B4F33000695DA8 /* Promo */,
-				BB4A348129B8AC7500695DA8 /* CatalogCardView.swift */,
+				BB4A349629CA178600695DA8 /* ProductCellView.swift */,
+				BB4A34D429CC36A800695DA8 /* CartCellView.swift */,
 			);
 			path = AdditionalView;
+			sourceTree = "<group>";
+		};
+		BB4A348B29C6F46600695DA8 /* ProductDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				BB4A349029C7636000695DA8 /* ProductDetailView.swift */,
+			);
+			path = ProductDetailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,7 +426,8 @@
 			files = (
 				BB4A343D29B4ED5100695DA8 /* Preview Assets.xcassets in Resources */,
 				BB4A343A29B4ED5100695DA8 /* Assets.xcassets in Resources */,
-				BB4A348029B8AC4700695DA8 /* example.json in Resources */,
+				BB03FB3829CC884800196683 /* user.json in Resources */,
+				BB4A34D729CC5AD200695DA8 /* example.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,13 +458,19 @@
 				BB4A347E29B647DB00695DA8 /* PromoCellView.swift in Sources */,
 				BB4A346C29B4EF2700695DA8 /* MainView.swift in Sources */,
 				BB4A347B29B6460300695DA8 /* SearchView.swift in Sources */,
-				BB4A348229B8AC7500695DA8 /* CatalogCardView.swift in Sources */,
 				BB4A348629B8C67400695DA8 /* Bundle+decode.swift in Sources */,
 				BB4A348429B8C40B00695DA8 /* ProductModel.swift in Sources */,
+				BB4A349729CA178600695DA8 /* ProductCellView.swift in Sources */,
 				BB4A347129B4F02A00695DA8 /* CatalogView.swift in Sources */,
+				BB4A349129C7636000695DA8 /* ProductDetailView.swift in Sources */,
+				BB4A349329CA0F8100695DA8 /* Modifiers.swift in Sources */,
+				BB4A34D529CC36A800695DA8 /* CartCellView.swift in Sources */,
 				BB4A348829BF37DC00695DA8 /* Order.swift in Sources */,
+				BB03FB3A29CC8A9E00196683 /* Network.swift in Sources */,
 				BB4A347529B4F03A00695DA8 /* ProfileView.swift in Sources */,
+				BB03FB3C29CC8E4800196683 /* LoginView.swift in Sources */,
 				BB4A343629B4ED5000695DA8 /* ElectroShopApp.swift in Sources */,
+				BB4A34E029CC6EDB00695DA8 /* LoginResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

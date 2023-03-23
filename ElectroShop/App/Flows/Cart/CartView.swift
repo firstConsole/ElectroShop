@@ -12,15 +12,46 @@ struct CartView: View {
     
     var body: some View {
         NavigationView {
-            ZStack {
-                VStack {
-                    
+            VStack {
+                if order.products.isEmpty {
+                    HStack {
+                        Text("Нет товаров в корзине")
+                            .foregroundColor(.gray)
+                            .font(Font.system(size: 24))
+                        Image(systemName: "cart")
+                            .foregroundColor(.gray)
+                            .font(Font.system(size: 24))
+                    }
+
+                    VStack {
+                        NavigationLink {
+                            CatalogView()
+                        } label: {
+                            Text("В КАТАЛОГ")
+                                .font(Font.system(size: 20))
+                                .bold()
+                                .padding(2)
+                        }
+                        .buttonStyle(.borderedProminent)
+                    }
+                } else {
+                    ForEach(order.products, id: \.id) { product in
+                        CartCellView(product: product)
+                        
+                        HStack {
+                            Text("Итого: ")
+                            Spacer()
+                            Text("\(order.totalCost)" + "₽")
+                                .bold()
+                        }
+                    }
                 }
             }
         }
-        .navigationTitle(Text("Cart"))
+        .navigationTitle(Text("Корзина"))
     }
 }
+
 
 struct CartView_Preview: PreviewProvider {
     static var previews: some View {

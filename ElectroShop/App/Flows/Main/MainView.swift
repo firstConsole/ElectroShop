@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct MainView: View {
+    @StateObject var order = Order()
+    
     var body: some View {
         TabView {
             HomeView()
@@ -25,12 +27,12 @@ struct MainView: View {
                     Image(systemName: "magnifyingglass")
                     Text("Search")
                 }
-            CartView()
+            CartView().environmentObject(order)
                 .tabItem {
                     Image(systemName: "cart")
                     Text("Cart")
                 }
-            ProfileView()
+            LoginView()
                 .tabItem {
                     Image(systemName: "person.crop.circle.dashed")
                     Text("Profile")

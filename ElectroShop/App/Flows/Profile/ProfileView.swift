@@ -8,12 +8,11 @@
 import SwiftUI
 
 struct ProfileView: View {
+    
     var body: some View {
         NavigationView {
-            ZStack {
-                VStack {
-                    Color.red
-                }
+            VStack {
+                
             }
             .navigationTitle(Text("Profile"))
         }
