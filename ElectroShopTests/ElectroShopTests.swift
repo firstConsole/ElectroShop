@@ -17,20 +17,50 @@ final class ElectroShopTests: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    
+    // MARK: - TEST DECODE DATA
+    func decodeData() -> Bool {
+        let device = ProductModel.products
+        
+        return device.isEmpty ? false : true
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testDecodeData() {
+        let result = decodeData()
+        
+        XCTAssertEqual(result, true)
     }
-
+    
+    // MARK: - TEST DO ORDER
+    
+    func addToCart(product: Product) -> [Product] {
+        var products: [Product] = []
+        
+        products.append(product)
+        
+        return products
+    }
+    
+    func testAddToCart() {
+        let products = addToCart(product: Product(id: 1,
+                                                  category: "Phones",
+                                                  name: "iPhone",
+                                                  description: "This is best phone",
+                                                  brand: "Pear",
+                                                  color: "Different",
+                                                  memory: "Enermous",
+                                                  costRuble: 1000000,
+                                                  photo: ""))
+        
+        
+        
+        XCTAssertNotNil(products)
+    }
+    
+    // MARK: - TEST AUTHENTIFICATION
+    func testAuth() {
+        let result = Network().auth(login: "Admin", password: "123")
+        
+        XCTAssertEqual(result, false) // just test parse user data
+    }
 }

@@ -1,0 +1,191 @@
+{
+    "products": [
+        {
+            "id": 1110002,
+            "category": "Phones",
+            "name": "iPhone Xs Max",
+            "description": "Уникальный OLED‑дисплей смартфона Apple iPhone Xs Max поддерживает HDR, обеспечивает непревзойденную точность цветопередачи и глубокие черные цвета. При этом дисплей Apple iPhone Xs Max стал самым большим дисплеем в истории iPhone.",
+            "brand": "Apple",
+            "color": "Silver",
+            "memory": "64 GB",
+            "cost_ruble": 38649,
+            "photo": "https://c.dns-shop.ru/thumb/st4/fit/0/0/32047350a0120356543d47c6bced5e77/506beebe0ece5e90f023f4c7466ac397d8456ee2a914a6f1b9c6ec5e8d5ca4dc.jpg"
+        },
+        {
+            "id": 1110102,
+            "category": "Phones",
+            "name": "iPhone SE 2022",
+            "description": "Сверхбыстрый чип. Неутомимый аккумулятор. Суперзвёздная камера. Всё это в прочном корпусе карманного размера. Сверхмощный чип A15 Bionic загружает приложения молниеносно. ",
+            "brand": "Apple",
+            "color": "Red",
+            "memory": "64 GB",
+            "cost_ruble": 39999,
+            "photo": "https://c.dns-shop.ru/thumb/st1/fit/0/0/b9c6afd13d7080c409611acdf2e40127/a9a6c82992529b81c30548c5cdd8c9cd2a3015d33b3a737bce91a3e3a85d52fd.jpg"
+        },
+        {
+            "id": 1111101,
+            "category": "Phones",
+            "name": "iPhone 11",
+            "description": "Не только качеством кадров, надежной защитой данных и длительным временем автономной работы удивит пользователей смартфон Apple iPhone 11 с объемом встроенной памяти 64 ГБ.",
+            "brand": "Apple",
+            "color": "Turquoise",
+            "memory": "64 GB",
+            "cost_ruble": 42699,
+            "photo": "https://c.dns-shop.ru/thumb/st4/fit/0/0/adfa2716491948727c8c824a8b8b240a/8134843fd46b4f043005cea744df76ed6c229d4b50ff1040f70823207cb5d2f1.jpg"
+        },
+        {
+            "id": 1112101,
+            "category": "Phones",
+            "name": "iPhone 12",
+            "description": "Это iPhone 12. Великолепный яркий дисплей Super Retina XDR 6,1 дюйма. Передняя панель Ceramic Shield, с которой риск повреждений дисплея при падении в 4 раза ниже.",
+            "brand": "Apple",
+            "color": "Purple",
+            "memory": "128 GB",
+            "cost_ruble": 61099,
+            "photo": "https://c.dns-shop.ru/thumb/st4/fit/0/0/76c00ecac6c4968f1304ae19c7b8b438/69ad352c92131f26995396f4b24fa26eb284c5ba639fcb9d7fe5738f7a204a88.jpg"
+        },
+        {
+            "id": 1113101,
+            "category": "Phones",
+            "name": "iPhone 13",
+            "description": "Смартфон Apple iPhone 13 выполнен в компактном корпусе с привлекательной розовой расцветкой и защищенной конструкцией по стандарту IP68.",
+            "brand": "Apple",
+            "color": "Pink",
+            "memory": "128 GB",
+            "cost_ruble": 64399,
+            "photo": "https://c.dns-shop.ru/thumb/st4/fit/0/0/49eb7a4b509b2a09f9e87f56b388cd0e/60249dc59f44c8cd5386524d791b9172bceb22ec96b63f24c48d70de738e1d53.jpg"
+        },
+        {
+            "id": 1114101,
+            "category": "Phones",
+            "name": "iPhone 14",
+            "description": "Apple iPhone 14 базируются на однокристальной системе A15 Bionic. Используется версия с 5-ядерным GPU. Модель получила 6,1-дюймовую OLED-панель.",
+            "brand": "Apple",
+            "color": "LightBlue",
+            "memory": "128 GB",
+            "cost_ruble": 75899,
+            "photo": "https://c.dns-shop.ru/thumb/st4/fit/0/0/5da661694a48d1abc0c9bbd8c025bee9/8b51c38a88b6a741d8484925edb177c35307277542c25f99353d9271684488f7.jpg"
+        },
+        {
+            "id": 1112103,
+            "category": "Phones",
+            "name": "iPhone 12 Pro Max",
+            "description": "Это iPhone 12 Pro Max. Увеличенный дисплей Super Retina XDR 6,7 дюйма. Передняя панель Ceramic Shield, с которой риск повреждений дисплея при падении в 4 раза ниже.",
+            "brand": "Apple",
+            "color": "Gray",
+            "memory": "512 GB",
+            "cost_ruble": 84099,
+            "photo": "https://c.dns-shop.ru/thumb/st4/fit/0/0/2ae47aa79231b08e62bc8345170bde99/3fb14682d2b81647c39d4e057013bf71ef98e784556709dc528c69630ed20622.jpg"
+        },
+        {
+            "id": 1114102,
+            "category": "Phones",
+            "name": "iPhone 14 Pro",
+            "description": "У iPhone 14 Pro 6,1--дюймовая панель. Пиковая яркость — 2000 нит. Используется небольшой вырез с датчиком фронтальной камеры и системой Face ID.",
+            "brand": "Apple",
+            "color": "White",
+            "memory": "128 GB",
+            "cost_ruble": 113999,
+            "photo": "https://c.dns-shop.ru/thumb/st1/fit/0/0/10ab779fbcb60ee4b5214205b1b25165/2c598fe1cf537cfa55e3e3030624119550e923cb2ec5f7633a8711adadc2dab4.jpg"
+        },
+        {
+            "id": 1114103,
+            "category": "Phones",
+            "name": "iPhone 14 Pro Max",
+            "description": "У Apple iPhone 14 Pro Max 6,7-дюймовая панель. Пиковая яркость — 2000 нит. Используется небольшой вырез с датчиком фронтальной камеры и системой Face ID.",
+            "brand": "Apple",
+            "color": "Purple",
+            "memory": "128 GB",
+            "cost_ruble": 119599,
+            "photo": "https://c.dns-shop.ru/thumb/st1/fit/0/0/80ee6e17a5e0cc48ca15d759ec2b1f7d/a87566e1a761e1c090ea9f430097c6b7513f7dfffb8344890c6ee14ea956bd0f.jpg"
+        },
+        {
+            "id": 2113301,
+            "category": "Phones",
+            "name": "Galaxy A33 5G",
+            "description": "Смартфон Samsung Galaxy A33 оснащен 8-ядерным процессором с частотой 2.24 ГГц, который обеспечивает моментальную загрузку приложений и плавный переход между кадрами.",
+            "brand": "Samsung",
+            "color": "White",
+            "memory": "128 GB",
+            "cost_ruble": 25999,
+            "photo": "https://c.dns-shop.ru/thumb/st4/fit/0/0/388a06c72f4e571d4c46ce41ec3d9c5e/8b0bb7dd32816007b26db956abb97b51c9614c7c92130279b7867bb20a1445b0.jpg"
+        },
+        {
+            "id": 2115301,
+            "category": "Phones",
+            "name": "Galaxy A53 5G",
+            "description": "Станьте частью Galaxy вместе с 5G. Сверхбыстрое соединение обеспечивает бесперебойную потоковую передачу и обмен файлами с друзьями и семьей.",
+            "brand": "Samsung",
+            "color": "Orange",
+            "memory": "128 GB",
+            "cost_ruble": 29999,
+            "photo": "https://c.dns-shop.ru/thumb/st4/fit/0/0/4ea287b2aed113a3d85760089e994542/959e275628ed80d0ea50327d11975e331e504294531c63b97ac418531ddeda9c.jpg"
+        },
+        {
+            "id": 2117301,
+            "category": "Phones",
+            "name": "Galaxy A73 5G",
+            "description": "Смартфон Samsung Galaxy A73 5G – это возможность снимать контент, ни в чем не уступающий созданному при помощи профессиональной фото и видеоаппаратуры.",
+            "brand": "Samsung",
+            "color": "Green",
+            "memory": "128 GB",
+            "cost_ruble": 35999,
+            "photo": "https://c.dns-shop.ru/thumb/st1/fit/0/0/55422f95f1930aabb93bc86ea2129192/a6ec8e769f5e4bdca0f408e33e48e9a5c6fe580c94196a45195ac9026f7580c8.jpg"
+        },
+        {
+            "id": 2122111,
+            "category": "Phones",
+            "name": "Galaxy S21 FE",
+            "description": "Смартфон Samsung Galaxy S21 FE выполнен в тонком корпусе с классической расцветкой и предлагает широкие функциональные возможности флагманского уровня.",
+            "brand": "Samsung",
+            "color": "Black",
+            "memory": "256 GB",
+            "cost_ruble": 47999,
+            "photo": "https://c.dns-shop.ru/thumb/st1/fit/0/0/55d1b66c1fd7bb6f3b84b5f6009838ee/68e94d97e37063392c59cd11d781b590869784d0dc6236c31c09da5cbd6f66f7.jpg"
+        },
+        {
+            "id": 2122201,
+            "category": "Phones",
+            "name": "Galaxy S22",
+            "description": "Samsung Galaxy S22 оснащен 6,1-дюймовым дисплеем AMOLED FHD+ с частотой обновления 120 Гц и рекордной яркостью 1750 кд/м2.",
+            "brand": "Samsung",
+            "color": "Purple",
+            "memory": "128 GB",
+            "cost_ruble": 59999,
+            "photo": "https://c.dns-shop.ru/thumb/st4/fit/0/0/13d60e4128e6bd4ec95c2ae41bfd0835/c9986633d70d7d3ffc3f2fc008de08da07692679f59964ca3a12c561e45c859f.jpg"
+        },
+        {
+            "id": 2122202,
+            "category": "Phones",
+            "name": "Galaxy S22+",
+            "description": "Samsung Galaxy S22+ оснащен 6,6-дюймовым дисплеем AMOLED FHD+ с частотой обновления 120 Гц и рекордной яркостью 1750 кд/м2.",
+            "brand": "Samsung",
+            "color": "Black",
+            "memory": "128 GB",
+            "cost_ruble": 68499,
+            "photo": "https://c.dns-shop.ru/thumb/st1/fit/0/0/238e2e417800c12a3af75b54fea4cc6f/e1f5c56f90ffbcbb42fe04ad8650cdb58be16de1dc94e64666c166670501209c.jpg"
+        },
+        {
+            "id": 2130101,
+            "category": "Phones",
+            "name": "Galaxy Z Flip3",
+            "description": "Смартфон Samsung Galaxy Z Flip3 – полноразмерный смартфон, диагональ которого в сложенном виде всего 4.2 дюйма. Он легко поместится даже в небольшой карман.",
+            "brand": "Samsung",
+            "color": "Green",
+            "memory": "256 GB",
+            "cost_ruble": 68999,
+            "photo": "https://c.dns-shop.ru/thumb/st1/fit/0/0/c379a8619f6371585cfeaa14a6c903c9/971ce8d3fbbd2e4759d33a84a6c30f40a93263e181f3a87cd797654d3102744b.jpg"
+        },
+        {
+            "id": 2122303,
+            "category": "Phones",
+            "name": "Galaxy S23 Ultra",
+            "description": "Смартфон Samsung Galaxy S23 Ultra основан на однокристальной системе Snapdragon 8 Gen 2, работает под управлением операционной системы Android 13.",
+            "brand": "Samsung",
+            "color": "Beige",
+            "memory": "256 GB",
+            "cost_ruble": 109998,
+            "photo": "https://c.dns-shop.ru/thumb/st1/fit/0/0/668bfaf717542dd7f25c49568242e357/e2c390bf76791b20d25c09f59c83795cbab5cc03c968abb7621829157650b3bc.jpg"
+        }
+    ]
+}

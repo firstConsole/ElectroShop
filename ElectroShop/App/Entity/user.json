@@ -1,0 +1,10 @@
+{
+  "user": {
+    "id": 123456,
+    "login": "User",
+    "password": "123456",
+    "name": "Demo",
+    "lastname": "User",
+    "photo": "https://shapka-youtube.ru/wp-content/uploads/2021/02/prikolnaya-avatarka-dlya-patsanov.jpg"
+  }
+}
